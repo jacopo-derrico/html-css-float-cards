@@ -47,8 +47,42 @@ section:first-child {
 img {
     float: left;
     width: 100px;
+    margin-right: 15px;
 }
 
 .card-margin {
     margin-right: 30px;
+}
+
+/* row style */
+.row {
+    margin-bottom: 30px;
+}
+
+/* cards' text style */
+
+h3 {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+}
+
+h6 {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.card a {
+    text-decoration: none;
+    color: #4FCDE7;
+}
+
+.card div {
+    padding-top: 10px;
+}
+
+h3,
+h6 {
+    margin-bottom: 10px;
 }
