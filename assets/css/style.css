@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
 /* title and description style */
 header {
     margin-block: 50px;
@@ -20,4 +25,30 @@ header {
 
 section:first-child {
     margin-bottom: 50px;
+}
+
+/* -----CARDS STYLE----- */
+
+/* clearfix floats */
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* cards style */
+.card {
+    float: left;
+    background-color: black;
+    box-shadow: 0 0 7px #00000050;
+    width: calc((100%/3) - 25px);
+}
+
+img {
+    float: left;
+    width: 100px;
+}
+
+.card-margin {
+    margin-right: 30px;
 }
