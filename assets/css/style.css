@@ -1,1 +1,23 @@
-*
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* title and description style */
+header {
+    margin-block: 50px;
+}
+
+.title {
+    text-align: center;
+    color: #E53170;
+}
+
+.description {
+    text-align: center;
+}
+
+section:first-child {
+    margin-bottom: 50px;
+}
